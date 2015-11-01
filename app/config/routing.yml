@@ -1,0 +1,7 @@
+site_back_office:
+    resource: "@SiteBackOfficeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+site_front_office:
+    resource: "@SiteFrontOfficeBundle/Resources/config/routing.yml"
+    prefix:   /

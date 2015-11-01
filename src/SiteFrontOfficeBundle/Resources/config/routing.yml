@@ -1,0 +1,3 @@
+site_front_office_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SiteFrontOfficeBundle:Default:index }
