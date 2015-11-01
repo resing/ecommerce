@@ -7,4 +7,8 @@
 /app/phpunit.xml
 /bin/
 /composer.phar
+<<<<<<< HEAD
 /nbproject
+=======
+/nbproject
+>>>>>>> 237e76b36e0784e5fcfb040a8538065247376618
