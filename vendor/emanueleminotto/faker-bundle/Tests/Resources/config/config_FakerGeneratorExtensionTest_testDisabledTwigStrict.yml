@@ -1,0 +1,8 @@
+imports:
+- resource: config.yml
+
+faker:
+  twig: false
+
+twig:
+  strict_variables: true

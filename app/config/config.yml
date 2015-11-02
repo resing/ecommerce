@@ -78,3 +78,19 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+    
+stof_doctrine_extensions:
+    default_locale: fr_FR
+    translation_fallback: true
+    orm:
+        default:
+            sluggable: true
+            timestampable : true
+            translatable: true
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: UtilisateursBundle\Entity\User
+    registration:
+        form:
+            type: site_utilisateurs_registration
