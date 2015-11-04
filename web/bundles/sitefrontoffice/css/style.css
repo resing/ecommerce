@@ -2457,7 +2457,7 @@ h3.like, h3.recent {
    width: 83.33%;
 }
 }
-@media (max-width: 320px) {
+@media (max-width: 320px){
 .side_banner .banner_holder {
     left: -96px;
 }

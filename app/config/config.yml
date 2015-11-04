@@ -90,7 +90,7 @@ stof_doctrine_extensions:
 fos_user:
     db_driver: orm
     firewall_name: main
-    user_class: UtilisateursBundle\Entity\User
+    user_class: Site\UtilisateursBundle\Entity\User
     registration:
         form:
             type: site_utilisateurs_registration

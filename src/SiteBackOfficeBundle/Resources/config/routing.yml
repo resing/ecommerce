@@ -1,3 +1,0 @@
-site_back_office_homepage:
-    path:     /hello2/{name}
-    defaults: { _controller: SiteBackOfficeBundle:Default:index }

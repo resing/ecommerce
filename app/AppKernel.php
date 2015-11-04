@@ -16,13 +16,12 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            new SiteFrontOfficeBundle\SiteFrontOfficeBundle(),
-            new SiteBackOfficeBundle\SiteBackOfficeBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-            new UtilisateursBundle\UtilisateursBundle(),
+            new Site\FrontOfficeBundle\SiteFrontOfficeBundle(),
+            new Site\UtilisateursBundle\SiteUtilisateursBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

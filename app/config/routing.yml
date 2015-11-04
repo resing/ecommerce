@@ -1,9 +1,5 @@
-utilisateurs:
-    resource: "@UtilisateursBundle/Resources/config/routing.yml"
-    prefix:   /
-
-site_back_office:
-    resource: "@SiteBackOfficeBundle/Resources/config/routing.yml"
+site_utilisateurs:
+    resource: "@SiteUtilisateursBundle/Resources/config/routing.yml"
     prefix:   /
 
 site_front_office:
